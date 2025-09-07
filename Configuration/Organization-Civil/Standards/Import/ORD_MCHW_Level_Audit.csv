@@ -1,0 +1,61 @@
+Series,SeriesName,FeatureType,FeatureDefinition,RoleCode,UniclassTable,LevelName
+100,Preliminaries,Point,Site_Benchmark,CX,Pr,CX-Pr01-P-Site_Benchmark
+100,Preliminaries,Linear,Site_Boundary,CX,Pr,CX-Pr02-M-Site_Boundary
+200,Site Clearance,Surface,Vegetation_Clearance_Area,CX,Pr,CX-Pr03-M-Vegetation_Clearance_Area
+200,Site Clearance,Point,Tree_To_Remove,CX,Pr,CX-Pr04-P-Tree_To_Remove
+300,Fencing & VRS,Linear,Fence_PostAndWire,CH,Pr,CH-Pr05-M-Fence_PostAndWire
+300,Fencing & VRS,Linear,VehicleRestraint_Barrier,CH,Pr,CH-Pr06-M-VehicleRestraint_Barrier
+300,Fencing & VRS,Point,Gate,CH,Pr,CH-Pr07-P-Gate
+400,Road Restraint Systems,Linear,PedestrianGuardrail,CX,Pr,CX-Pr08-M-PedestrianGuardrail
+400,Road Restraint Systems,Point,Terminal_End,CX,Pr,CX-Pr09-P-Terminal_End
+500,Drainage & Ducts,Linear,Drain_Pipe,CD,Ss,CD-Ss01-M-Drain_Pipe
+500,Drainage & Ducts,Point,Drain_Manhole,CD,Pr,CD-Pr10-P-Drain_Manhole
+500,Drainage & Ducts,Point,Drain_Gully,CD,Pr,CD-Pr11-P-Drain_Gully
+500,Drainage & Ducts,Point,Drain_Catchpit,CD,Pr,CD-Pr12-P-Drain_Catchpit
+500,Drainage & Ducts,Linear,Drain_Culvert,CD,Ss,CD-Ss02-M-Drain_Culvert
+500,Drainage & Ducts,Point,Drain_Headwall,CD,Pr,CD-Pr13-P-Drain_Headwall
+500,Drainage & Ducts,Linear,Service_Duct,CD,Ss,CD-Ss03-M-Service_Duct
+500,Drainage & Ducts,Point,Hydrobrake_Orifice,CD,Pr,CD-Pr14-P-Hydrobrake_Orifice
+600,Earthworks,Surface,Earthworks_Cut,CE,EF,CE-EF01-M-Earthworks_Cut
+600,Earthworks,Surface,Earthworks_Fill,CE,EF,CE-EF02-M-Earthworks_Fill
+600,Earthworks,Surface,Topsoil_Stripping,CE,EF,CE-EF03-M-Topsoil_Stripping
+600,Earthworks,Surface,Capping_Layer,CE,EF,CE-EF04-M-Capping_Layer
+600,Earthworks,Surface,Subgrade,CE,EF,CE-EF05-M-Subgrade
+700,Pavements - General,Linear,Carriageway_Edge,CH,Pr,CH-Pr15-M-Carriageway_Edge
+700,Pavements - General,Surface,Carriageway_Area,CH,EF,CH-EF06-M-Carriageway_Area
+800,Traffic Signs & Markings (generic),Linear,Road_Marking_Line,CH,Pr,CH-Pr16-M-Road_Marking_Line
+800,Traffic Signs & Markings (generic),Point,Traffic_Sign_Post,CH,Pr,CH-Pr17-P-Traffic_Sign_Post
+900,Pavements - Bituminous,Surface,Bituminous_SurfaceCourse,CH,EF,CH-EF07-M-Bituminous_SurfaceCourse
+900,Pavements - Bituminous,Surface,Bituminous_BinderCourse,CH,EF,CH-EF08-M-Bituminous_BinderCourse
+900,Pavements - Bituminous,Surface,Bituminous_Base,CH,EF,CH-EF09-M-Bituminous_Base
+1000,Pavements - Concrete & CBM,Surface,Concrete_Pavement,CH,EF,CH-EF10-M-Concrete_Pavement
+1000,Pavements - Concrete & CBM,Surface,CBM_Subbase,CH,EF,CH-EF11-M-CBM_Subbase
+1100,"Kerbs, Footways & Paved Areas",Linear,Kerb_TypeA,CH,Pr,CH-Pr18-M-Kerb_TypeA
+1100,"Kerbs, Footways & Paved Areas",Linear,Kerb_Channel,CH,Pr,CH-Pr19-M-Kerb_Channel
+1100,"Kerbs, Footways & Paved Areas",Surface,Footway_AC,CH,Pr,CH-Pr20-M-Footway_AC
+1100,"Kerbs, Footways & Paved Areas",Surface,Footway_BlockPaving,CH,Pr,CH-Pr21-M-Footway_BlockPaving
+1100,"Kerbs, Footways & Paved Areas",Surface,Cycletrack,CH,Pr,CH-Pr22-M-Cycletrack
+1200,Traffic Signs & Road Markings,Linear,RoadMarking_EdgeLine,CH,Pr,CH-Pr23-M-RoadMarking_EdgeLine
+1200,Traffic Signs & Road Markings,Linear,RoadMarking_CentreLine,CH,Pr,CH-Pr24-M-RoadMarking_CentreLine
+1200,Traffic Signs & Road Markings,Linear,RoadMarking_Hatching,CH,Pr,CH-Pr25-M-RoadMarking_Hatching
+1200,Traffic Signs & Road Markings,Point,TrafficSign_PostMounted,CH,Pr,CH-Pr26-P-TrafficSign_PostMounted
+1200,Traffic Signs & Road Markings,Point,TrafficSign_GantryMounted,CH,Pr,CH-Pr27-P-TrafficSign_GantryMounted
+1300,Road Lighting & Electrical,Point,Lighting_Column,CH,Pr,CH-Pr28-P-Lighting_Column
+1300,Road Lighting & Electrical,Linear,Lighting_Cable_Trench,CH,Pr,CH-Pr29-M-Lighting_Cable_Trench
+1300,Road Lighting & Electrical,Point,Feeder_Pillar,CH,Pr,CH-Pr30-P-Feeder_Pillar
+1400,Traffic Signals,Point,Signal_Pole,CH,Pr,CH-Pr31-P-Signal_Pole
+1400,Traffic Signals,Linear,Signal_Cable_Run,CH,Pr,CH-Pr32-M-Signal_Cable_Run
+1400,Traffic Signals,Point,Controller_Cabinet,CH,Pr,CH-Pr33-P-Controller_Cabinet
+1500,Motorway Communications,Point,Comms_MSD,CH,Pr,CH-Pr34-P-Comms_MSD
+1500,Motorway Communications,Linear,Comms_Duct,CH,Pr,CH-Pr35-M-Comms_Duct
+1700,Structural Concrete,Volume,Concrete_Pour,CB,Pr,CB-Pr36-M-Concrete_Pour
+1700,Structural Concrete,Point,Rebar_LapLocation,CB,Pr,CB-Pr37-P-Rebar_LapLocation
+1800,Steelwork for Structures,Linear,Parapet_Steel,CB,Pr,CB-Pr38-M-Parapet_Steel
+1800,Steelwork for Structures,Point,Bearing,CB,Pr,CB-Pr39-P-Bearing
+1900,Protection of Steelwork,Surface,Protective_Coating_Area,CB,Pr,CB-Pr40-M-Protective_Coating_Area
+2000,Waterproofing for Structures,Surface,Bridge_Waterproofing,CB,Pr,CB-Pr41-M-Bridge_Waterproofing
+2500,Special Structures,Point,Expansion_Joint,CB,Pr,CB-Pr42-P-Expansion_Joint
+2500,Special Structures,Linear,Cable_Stay,CB,Pr,CB-Pr43-M-Cable_Stay
+0,General Furniture,Point,Bollard,CX,Pr,CX-Pr44-P-Bollard
+0,General Furniture,Point,Bench,CX,Pr,CX-Pr45-P-Bench
+0,General Furniture,Point,Bin,CX,Pr,CX-Pr46-P-Bin

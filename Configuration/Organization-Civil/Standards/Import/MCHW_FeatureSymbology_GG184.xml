@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentManagement xmlns="Bentley-ContentManagement" file="C:\ProgramData\Bentley\OpenRoads Designer 2023.00\Configuration\Organization-Civil\UK Standards\Dgnlib\Feature Definitions\Road\MCHW_Features_GG184.dgnlib" version="OpenRoads Designer 2023">
+  <FeatureSymbologies>
+    <FeatureSymbology featurePath="Road" name="Carriageway_Edge">
+      <LinearFeatureSymbology>
+        <ElementTemplateRef featurePath="Linear\Road\Carriageway_Edge" relationship="GeometricGeometryAspect__DefaultElementTemplate" schema="Bentley_Civil__Model_Geometry_ContentManagement"/>
+      </LinearFeatureSymbology>
+    </FeatureSymbology>
+    <FeatureSymbology featurePath="Road" name="Carriageway_Edge">
+      <ProfileFeatureSymbology>
+        <ElementTemplateRef featurePath="Profile\Road\Carriageway_Edge" relationship="GeometricGeometryAspect__DefaultElementTemplate" schema="Bentley_Civil__Model_Geometry_ContentManagement"/>
+      </ProfileFeatureSymbology>
+    </FeatureSymbology>
+    <FeatureSymbology featurePath="Kerbs" name="Kerb_TypeA">
+      <LinearFeatureSymbology>
+        <ElementTemplateRef featurePath="Linear\Kerbs\Kerb_TypeA" relationship="GeometricGeometryAspect__DefaultElementTemplate" schema="Bentley_Civil__Model_Geometry_ContentManagement"/>
+      </LinearFeatureSymbology>
+    </FeatureSymbology>
+    <FeatureSymbology featurePath="Kerbs" name="Kerb_TypeA">
+      <ProfileFeatureSymbology>
+        <ElementTemplateRef featurePath="Profile\Kerbs\Kerb_TypeA" relationship="GeometricGeometryAspect__DefaultElementTemplate" schema="Bentley_Civil__Model_Geometry_ContentManagement"/>
+      </ProfileFeatureSymbology>
+    </FeatureSymbology>
+    <FeatureSymbology featurePath="Kerbs" name="Kerb_Channel">
+      <LinearFeatureSymbology>
+        <ElementTemplateRef featurePath="Linear\Kerbs\Kerb_Channel" relationship="GeometricGeometryAspect__DefaultElementTemplate" schema="Bentley_Civil__Model_Geometry_ContentManagement"/>
+      </LinearFeatureSymbology>
+    </FeatureSymbology>
+    <FeatureSymbology featurePath="Kerbs" name="Kerb_Channel">
+      <ProfileFeatureSymbology>
+        <ElementTemplateRef featurePath="Profile\Kerbs\Kerb_Channel" relationship="GeometricGeometryAspect__DefaultElementTemplate" schema="Bentley_Civil__Model_Geometry_ContentManagement"/>
+      </ProfileFeatureSymbology>
+    </FeatureSymbology>
+    <FeatureSymbology featurePath="Footway" name="Footway_AC">
+      <LinearFeatureSymbology>
+        <ElementTemplateRef featurePath="Linear\Footway\Footway_AC" relationship="GeometricGeometryAspect__DefaultElementTemplate" schema="Bentley_Civil__Model_Geometry_ContentManagement"/>
+      </LinearFeatureSymbology>
+    </FeatureSymbology>
+    <FeatureSymbology featurePath="Footway" name="Footway_AC">
+      <ProfileFeatureSymbology>
+        <ElementTemplateRef featurePath="Profile\Footway\Footway_AC" relationship="GeometricGeometryAspect__DefaultElementTemplate" schema="Bentley_Civil__Model_Geometry_ContentManagement"/>
+      </ProfileFeatureSymbology>
+    </FeatureSymbology>
+    <FeatureSymbology featurePath="Cycle" name="Cycletrack">
+      <LinearFeatureSymbology>
+        <ElementTemplateRef featurePath="Linear\Cycle\Cycletrack" relationship="GeometricGeometryAspect__DefaultElementTemplate" schema="Bentley_Civil__Model_Geometry_ContentManagement"/>
+      </LinearFeatureSymbology>
+    </FeatureSymbology>
+    <FeatureSymbology featurePath="Cycle" name="Cycletrack">
+      <ProfileFeatureSymbology>
+        <ElementTemplateRef featurePath="Profile\Cycle\Cycletrack" relationship="GeometricGeometryAspect__DefaultElementTemplate" schema="Bentley_Civil__Model_Geometry_ContentManagement"/>
+      </ProfileFeatureSymbology>
+    </FeatureSymbology>
+    <FeatureSymbology featurePath="Modeling" name="Carriageway_Area">
+      <SurfaceFeatureSymbology>
+        <ElementTemplateRef featurePath="Surface\Modeling\Carriageway\Carriageway_Area" relationship="GeometricGeometryAspect__DefaultElementTemplate" schema="Bentley_Civil__Model_Geometry_ContentManagement"/>
+      </SurfaceFeatureSymbology>
+    </FeatureSymbology>
+    <FeatureSymbology featurePath="Modeling" name="Bituminous_SurfaceCourse">
+      <SurfaceFeatureSymbology>
+        <ElementTemplateRef featurePath="Surface\Pavement\Bituminous_SurfaceCourse" relationship="GeometricGeometryAspect__DefaultElementTemplate" schema="Bentley_Civil__Model_Geometry_ContentManagement"/>
+      </SurfaceFeatureSymbology>
+    </FeatureSymbology>
+    <FeatureSymbology featurePath="Modeling" name="Bituminous_BinderCourse">
+      <SurfaceFeatureSymbology>
+        <ElementTemplateRef featurePath="Surface\Pavement\Bituminous_BinderCourse" relationship="GeometricGeometryAspect__DefaultElementTemplate" schema="Bentley_Civil__Model_Geometry_ContentManagement"/>
+      </SurfaceFeatureSymbology>
+    </FeatureSymbology>
+    <FeatureSymbology featurePath="Modeling" name="Bituminous_Base">
+      <SurfaceFeatureSymbology>
+        <ElementTemplateRef featurePath="Surface\Pavement\Bituminous_Base" relationship="GeometricGeometryAspect__DefaultElementTemplate" schema="Bentley_Civil__Model_Geometry_ContentManagement"/>
+      </SurfaceFeatureSymbology>
+    </FeatureSymbology>
+    <FeatureSymbology featurePath="Modeling" name="Subgrade">
+      <SurfaceFeatureSymbology>
+        <ElementTemplateRef featurePath="Surface\Earthworks\Subgrade" relationship="GeometricGeometryAspect__DefaultElementTemplate" schema="Bentley_Civil__Model_Geometry_ContentManagement"/>
+      </SurfaceFeatureSymbology>
+    </FeatureSymbology>
+  </FeatureSymbologies>
+</ContentManagement>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InRoads productName="" productVersion="4.0" outputGridScaleFactor="1.00000000" inputGridScaleFactor="1.00000000" linearUnits="Metric" angularUnits="Degrees" commandName="Saved Template Library">
+  <Units>Metric</Units>
+  <Description>Parametric UK highway templates regenerated to match sample ITL schema</Description>
+  <TemplateLibrary>
+    <Template Name="S2_Urban_Footways">
+      <Description>Single c/w with 2.0m footways both sides (parametric)</Description>
+      <TemplatePoints>
+        <Point Name="CL_TOS" X="0.000" Y="0.000" FeatureDefinition="Carriageway_Edge"/>
+        <Point Name="L1_TOS" X="-3.650" Y="0.000" FeatureDefinition="Carriageway_Edge" XExpr="-Lane_Width" YExpr="Crossfall*abs(X)"/>
+        <Point Name="L_Channel" X="-3.950" Y="-0.010" FeatureDefinition="Kerb_Channel" XExpr="-(Lane_Width + Channel_Width)" YExpr="Crossfall*abs(X) - 0.010"/>
+        <Point Name="L_KerbArris" X="-4.075" Y="0.115" FeatureDefinition="Kerb_TypeA" XExpr="-(Lane_Width + Channel_Width + 0.125)" YExpr="0.115"/>
+        <Point Name="L_BackKerb" X="-4.375" Y="0.125" FeatureDefinition="Kerb_TypeA" XExpr="-(Lane_Width + Channel_Width + 0.125 + Kerb_Backset)" YExpr="Kerb_Upstand"/>
+        <Point Name="L_Footway_Top" X="-6.375" Y="0.125" FeatureDefinition="Footway_AC" XExpr="-(Lane_Width + Channel_Width + 0.125 + Kerb_Backset + Footway_Width)" YExpr="Kerb_Upstand"/>
+        <Point Name="R1_TOS" X="3.650" Y="0.000" FeatureDefinition="Carriageway_Edge" XExpr="Lane_Width" YExpr="Crossfall*(-abs(X))"/>
+        <Point Name="R_Channel" X="3.950" Y="-0.010" FeatureDefinition="Kerb_Channel" XExpr="(Lane_Width + Channel_Width)" YExpr="Crossfall*(-abs(X)) - 0.010"/>
+        <Point Name="R_KerbArris" X="4.075" Y="0.115" FeatureDefinition="Kerb_TypeA" XExpr="(Lane_Width + Channel_Width + 0.125)" YExpr="0.115"/>
+        <Point Name="R_BackKerb" X="4.375" Y="0.125" FeatureDefinition="Kerb_TypeA" XExpr="(Lane_Width + Channel_Width + 0.125 + Kerb_Backset)" YExpr="Kerb_Upstand"/>
+        <Point Name="R_Footway_Top" X="6.375" Y="0.125" FeatureDefinition="Footway_AC" XExpr="(Lane_Width + Channel_Width + 0.125 + Kerb_Backset + Footway_Width)" YExpr="Kerb_Upstand"/>
+        <Point Name="L_SurfaceCourse" X="-3.650" Y="-0.040" FeatureDefinition="Bituminous_SurfaceCourse" XExpr="-Lane_Width" YExpr="-Surf_T"/>
+        <Point Name="L_BinderCourse" X="-3.650" Y="-0.100" FeatureDefinition="Bituminous_BinderCourse" XExpr="-Lane_Width" YExpr="-Surf_T - Bind_T"/>
+        <Point Name="L_BaseCourse" X="-3.650" Y="-0.280" FeatureDefinition="Bituminous_Base" XExpr="-Lane_Width" YExpr="-Surf_T - Bind_T - Base_T"/>
+        <Point Name="R_SurfaceCourse" X="3.650" Y="-0.040" FeatureDefinition="Bituminous_SurfaceCourse" XExpr="Lane_Width" YExpr="-Surf_T"/>
+        <Point Name="R_BinderCourse" X="3.650" Y="-0.100" FeatureDefinition="Bituminous_BinderCourse" XExpr="Lane_Width" YExpr="-Surf_T - Bind_T"/>
+        <Point Name="R_BaseCourse" X="3.650" Y="-0.280" FeatureDefinition="Bituminous_Base" XExpr="Lane_Width" YExpr="-Surf_T - Bind_T - Base_T"/>
+        <Point Name="L_Subgrade" X="-3.650" Y="-0.430" FeatureDefinition="Subgrade" XExpr="-Lane_Width" YExpr="-Subgrade_Depth"/>
+        <Point Name="R_Subgrade" X="3.650" Y="-0.430" FeatureDefinition="Subgrade" XExpr="Lane_Width" YExpr="-Subgrade_Depth"/>
+      </TemplatePoints>
+      <TemplateComponents>
+        <Component Name="CH_EF3060_M3_ATRL_CarriagewayTop_0001" FeatureDefinition="Carriageway_Area" Type="Normal" IsClosed="true">
+          <PointRef Name="L1_TOS"/>
+          <PointRef Name="CL_TOS"/>
+          <PointRef Name="R1_TOS"/>
+          <PointRef Name="R_Channel"/>
+          <PointRef Name="R_KerbArris"/>
+          <PointRef Name="R_BackKerb"/>
+          <PointRef Name="R_Footway_Top"/>
+          <PointRef Name="L_Footway_Top"/>
+          <PointRef Name="L_BackKerb"/>
+          <PointRef Name="L_KerbArris"/>
+          <PointRef Name="L_Channel"/>
+          <PointRef Name="L1_TOS"/>
+        </Component>
+        <Component Name="CH_Ss301405_M3_ATRL_SurfaceCourse_0002" FeatureDefinition="Bituminous_SurfaceCourse" Type="Normal" IsClosed="true">
+          <PointRef Name="L_SurfaceCourse"/>
+          <PointRef Name="R_SurfaceCourse"/>
+          <PointRef Name="R1_TOS"/>
+          <PointRef Name="L1_TOS"/>
+        </Component>
+        <Component Name="CH_Ss301405_M3_ATRL_BinderCourse_0003" FeatureDefinition="Bituminous_BinderCourse" Type="Normal" IsClosed="true">
+          <PointRef Name="L_BinderCourse"/>
+          <PointRef Name="R_BinderCourse"/>
+          <PointRef Name="R_SurfaceCourse"/>
+          <PointRef Name="L_SurfaceCourse"/>
+        </Component>
+        <Component Name="CH_Ss301405_M3_ATRL_BaseCourse_0004" FeatureDefinition="Bituminous_Base" Type="Normal" IsClosed="true">
+          <PointRef Name="L_BaseCourse"/>
+          <PointRef Name="R_BaseCourse"/>
+          <PointRef Name="R_BinderCourse"/>
+          <PointRef Name="L_BinderCourse"/>
+        </Component>
+        <Component Name="CE_EF1510_M3_ATRL_Formation_0005" FeatureDefinition="Subgrade" Type="Surface" IsClosed="false">
+          <PointRef Name="L_Subgrade"/>
+          <PointRef Name="R_Subgrade"/>
+        </Component>
+      </TemplateComponents>
+      <EndConditions/>
+      <TemplateVariables>
+        <Variable Name="Lane_Width" Default="3.65" Min="2.75" Max="4.0" Description="Running lane width"/>
+        <Variable Name="Footway_Width" Default="2.0" Min="1.5" Max="4.0" Description="Footway width"/>
+        <Variable Name="Channel_Width" Default="0.3" Min="0.25" Max="0.6" Description="Kerb channel width"/>
+        <Variable Name="Kerb_Upstand" Default="0.125" Min="0.05" Max="0.15" Description="Kerb upstand"/>
+        <Variable Name="Kerb_Backset" Default="0.3" Min="0.15" Max="0.5" Description="Back-of-kerb from arris"/>
+        <Variable Name="Surf_T" Default="0.04" Min="0.03" Max="0.06" Description="Surface thickness"/>
+        <Variable Name="Bind_T" Default="0.06" Min="0.04" Max="0.08" Description="Binder thickness"/>
+        <Variable Name="Base_T" Default="0.18" Min="0.12" Max="0.3" Description="Base thickness"/>
+        <Variable Name="Subgrade_Depth" Default="0.43" Min="0.2" Max="1.0" Description="Depth to subgrade"/>
+        <Variable Name="Crossfall" Default="-0.025" Min="-0.04" Max="0.0" Description="Crossfall (Y per 1m X)"/>
+      </TemplateVariables>
+    </Template>
+    <Template Name="D2AP_CentralReserve">
+      <Description>Dual 2-lane AP with central reserve (parametric)</Description>
+      <TemplatePoints>
+        <Point Name="L2_TOS" X="-7.300" Y="0.000" FeatureDefinition="Carriageway_Edge" XExpr="-2*Lane_Width" YExpr="Crossfall*abs(X)"/>
+        <Point Name="L1_TOS2" X="-3.650" Y="0.000" FeatureDefinition="Carriageway_Edge" XExpr="-Lane_Width" YExpr="Crossfall*abs(X)"/>
+        <Point Name="CR_Left" X="-1.500" Y="0.000" FeatureDefinition="Carriageway_Edge" XExpr="-0.5*Reserve_Width" YExpr="0.0"/>
+        <Point Name="CR_Right" X="1.500" Y="0.000" FeatureDefinition="Carriageway_Edge" XExpr="0.5*Reserve_Width" YExpr="0.0"/>
+        <Point Name="R1_TOS2" X="3.650" Y="0.000" FeatureDefinition="Carriageway_Edge" XExpr="Lane_Width" YExpr="Crossfall*(-abs(X))"/>
+        <Point Name="R2_TOS" X="7.300" Y="0.000" FeatureDefinition="Carriageway_Edge" XExpr="2*Lane_Width" YExpr="Crossfall*(-abs(X))"/>
+        <Point Name="L_Surface" X="-7.300" Y="-0.040" FeatureDefinition="Bituminous_SurfaceCourse" XExpr="-2*Lane_Width" YExpr="-Surf_T"/>
+        <Point Name="R_Surface" X="7.300" Y="-0.040" FeatureDefinition="Bituminous_SurfaceCourse" XExpr="2*Lane_Width" YExpr="-Surf_T"/>
+        <Point Name="L_Binder" X="-7.300" Y="-0.100" FeatureDefinition="Bituminous_BinderCourse" XExpr="-2*Lane_Width" YExpr="-Surf_T - Bind_T"/>
+        <Point Name="R_Binder" X="7.300" Y="-0.100" FeatureDefinition="Bituminous_BinderCourse" XExpr="2*Lane_Width" YExpr="-Surf_T - Bind_T"/>
+        <Point Name="L_Base" X="-7.300" Y="-0.280" FeatureDefinition="Bituminous_Base" XExpr="-2*Lane_Width" YExpr="-Surf_T - Bind_T - Base_T"/>
+        <Point Name="R_Base" X="7.300" Y="-0.280" FeatureDefinition="Bituminous_Base" XExpr="2*Lane_Width" YExpr="-Surf_T - Bind_T - Base_T"/>
+      </TemplatePoints>
+      <TemplateComponents>
+        <Component Name="CH_EF3060_M3_ATRL_CarriagewayTop_0006" FeatureDefinition="Carriageway_Area" Type="Normal" IsClosed="true">
+          <PointRef Name="L2_TOS"/>
+          <PointRef Name="L1_TOS2"/>
+          <PointRef Name="CR_Left"/>
+          <PointRef Name="CR_Right"/>
+          <PointRef Name="R1_TOS2"/>
+          <PointRef Name="R2_TOS"/>
+        </Component>
+        <Component Name="CH_Ss301405_M3_ATRL_SurfaceCourse_0007" FeatureDefinition="Bituminous_SurfaceCourse" Type="Normal" IsClosed="true">
+          <PointRef Name="L_Surface"/>
+          <PointRef Name="R_Surface"/>
+          <PointRef Name="R2_TOS"/>
+          <PointRef Name="L2_TOS"/>
+        </Component>
+        <Component Name="CH_Ss301405_M3_ATRL_BinderCourse_0008" FeatureDefinition="Bituminous_BinderCourse" Type="Normal" IsClosed="true">
+          <PointRef Name="L_Binder"/>
+          <PointRef Name="R_Binder"/>
+          <PointRef Name="R_Surface"/>
+          <PointRef Name="L_Surface"/>
+        </Component>
+        <Component Name="CH_Ss301405_M3_ATRL_BaseCourse_0009" FeatureDefinition="Bituminous_Base" Type="Normal" IsClosed="true">
+          <PointRef Name="L_Base"/>
+          <PointRef Name="R_Base"/>
+          <PointRef Name="R_Binder"/>
+          <PointRef Name="L_Binder"/>
+        </Component>
+      </TemplateComponents>
+      <EndConditions/>
+      <TemplateVariables>
+        <Variable Name="Lane_Width" Default="3.65" Min="2.75" Max="4.0" Description="Lane width"/>
+        <Variable Name="Reserve_Width" Default="3.0" Min="1.0" Max="6.0" Description="Central reserve width"/>
+        <Variable Name="Surf_T" Default="0.04" Min="0.03" Max="0.06" Description="Surface thickness"/>
+        <Variable Name="Bind_T" Default="0.06" Min="0.04" Max="0.08" Description="Binder thickness"/>
+        <Variable Name="Base_T" Default="0.18" Min="0.12" Max="0.3" Description="Base thickness"/>
+        <Variable Name="Crossfall" Default="-0.025" Min="-0.04" Max="0.0" Description="Crossfall"/>
+      </TemplateVariables>
+    </Template>
+    <Template Name="LocalAccess_Cycletrack">
+      <Description>Local access road with segregated cycle + footway (parametric)</Description>
+      <TemplatePoints>
+        <Point Name="L1_TOS_LA" X="-3.250" Y="0.000" FeatureDefinition="Carriageway_Edge" XExpr="-Lane_Width" YExpr="Crossfall*abs(X)"/>
+        <Point Name="R1_TOS_LA" X="3.250" Y="0.000" FeatureDefinition="Carriageway_Edge" XExpr="Lane_Width" YExpr="Crossfall*(-abs(X))"/>
+        <Point Name="R_Channel_LA" X="3.550" Y="-0.010" FeatureDefinition="Kerb_Channel" XExpr="Lane_Width + Channel_Width" YExpr="Crossfall*(-abs(Lane_Width + Channel_Width)) - 0.010"/>
+        <Point Name="R_KerbArris_LA" X="3.675" Y="0.115" FeatureDefinition="Kerb_TypeA" XExpr="Lane_Width + Channel_Width + 0.125" YExpr="0.115"/>
+        <Point Name="R_BackKerb_LA" X="3.975" Y="0.125" FeatureDefinition="Kerb_TypeA" XExpr="Lane_Width + Channel_Width + 0.125 + Kerb_Backset" YExpr="Kerb_Upstand"/>
+        <Point Name="R_CycleTop" X="5.975" Y="0.125" FeatureDefinition="Cycletrack" XExpr="Lane_Width + Channel_Width + 0.125 + Kerb_Backset + Cycle_Width" YExpr="Kerb_Upstand"/>
+        <Point Name="R_Footway_Top_LA" X="7.975" Y="0.125" FeatureDefinition="Footway_AC" XExpr="Lane_Width + Channel_Width + 0.125 + Kerb_Backset + Cycle_Width + Footway_Width" YExpr="Kerb_Upstand"/>
+        <Point Name="LA_Surface" X="3.250" Y="-0.040" FeatureDefinition="Bituminous_SurfaceCourse" XExpr="Lane_Width" YExpr="-Surf_T"/>
+        <Point Name="LA_Binder" X="3.250" Y="-0.100" FeatureDefinition="Bituminous_BinderCourse" XExpr="Lane_Width" YExpr="-Surf_T - Bind_T"/>
+        <Point Name="LA_Base" X="3.250" Y="-0.280" FeatureDefinition="Bituminous_Base" XExpr="Lane_Width" YExpr="-Surf_T - Bind_T - Base_T"/>
+      </TemplatePoints>
+      <TemplateComponents>
+        <Component Name="CH_EF3060_M3_ATRL_CarriagewayTop_0010" FeatureDefinition="Carriageway_Area" Type="Normal" IsClosed="true">
+          <PointRef Name="L1_TOS_LA"/>
+          <PointRef Name="R1_TOS_LA"/>
+          <PointRef Name="R_Channel_LA"/>
+          <PointRef Name="R_KerbArris_LA"/>
+          <PointRef Name="R_BackKerb_LA"/>
+          <PointRef Name="R_Footway_Top_LA"/>
+          <PointRef Name="R_CycleTop"/>
+          <PointRef Name="L1_TOS_LA"/>
+        </Component>
+        <Component Name="CH_Ss301405_M3_ATRL_SurfaceCourse_0011" FeatureDefinition="Bituminous_SurfaceCourse" Type="Normal" IsClosed="true">
+          <PointRef Name="LA_Surface"/>
+          <PointRef Name="R1_TOS_LA"/>
+          <PointRef Name="L1_TOS_LA"/>
+        </Component>
+        <Component Name="CH_Ss301405_M3_ATRL_BinderCourse_0012" FeatureDefinition="Bituminous_BinderCourse" Type="Normal" IsClosed="true">
+          <PointRef Name="LA_Binder"/>
+          <PointRef Name="LA_Surface"/>
+          <PointRef Name="L1_TOS_LA"/>
+        </Component>
+        <Component Name="CH_Ss301405_M3_ATRL_BaseCourse_0013" FeatureDefinition="Bituminous_Base" Type="Normal" IsClosed="true">
+          <PointRef Name="LA_Base"/>
+          <PointRef Name="LA_Binder"/>
+          <PointRef Name="L1_TOS_LA"/>
+        </Component>
+      </TemplateComponents>
+      <EndConditions/>
+      <TemplateVariables>
+        <Variable Name="Lane_Width" Default="3.25" Min="2.75" Max="4.0" Description="Lane width"/>
+        <Variable Name="Cycle_Width" Default="2.0" Min="1.5" Max="4.0" Description="Cycle width"/>
+        <Variable Name="Footway_Width" Default="2.0" Min="1.5" Max="4.0" Description="Footway width"/>
+        <Variable Name="Channel_Width" Default="0.3" Min="0.25" Max="0.6" Description="Kerb channel width"/>
+        <Variable Name="Kerb_Upstand" Default="0.125" Min="0.05" Max="0.15" Description="Kerb upstand"/>
+        <Variable Name="Kerb_Backset" Default="0.3" Min="0.15" Max="0.5" Description="Back-of-kerb from arris"/>
+        <Variable Name="Surf_T" Default="0.04" Min="0.03" Max="0.06" Description="Surface thickness"/>
+        <Variable Name="Bind_T" Default="0.06" Min="0.04" Max="0.08" Description="Binder thickness"/>
+        <Variable Name="Base_T" Default="0.18" Min="0.12" Max="0.3" Description="Base thickness"/>
+        <Variable Name="Crossfall" Default="-0.025" Min="-0.04" Max="0.0" Description="Crossfall"/>
+      </TemplateVariables>
+    </Template>
+  </TemplateLibrary>
+</InRoads>

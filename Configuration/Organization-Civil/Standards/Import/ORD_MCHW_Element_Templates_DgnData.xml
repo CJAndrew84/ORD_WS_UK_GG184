@@ -1,0 +1,1715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DgnData>
+  <ElementTemplates>
+    <NodeData name="Modeling" allowChildren="true">
+      <NodeData name="Points" allowChildren="true">
+        <NodeData name="UK" allowChildren="true">
+          <NodeData name="Preliminaries" allowChildren="true">
+            <NodeData name="Site_Benchmark" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CX-Pr2010-P-SiteBenchmark</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_20_10 -->
+            </NodeData>
+          </NodeData>
+          <NodeData name="Site Clearance" allowChildren="true">
+            <NodeData name="Tree_To_Remove" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CX-Pr2010-P-TreeToRemove</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_20_10 -->
+            </NodeData>
+          </NodeData>
+          <NodeData name="Fencing &amp; VRS" allowChildren="true">
+            <NodeData name="Gate" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CH-Pr2545-P-Gate</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_25_93_45 -->
+            </NodeData>
+          </NodeData>
+          <NodeData name="Road Restraint Systems" allowChildren="true">
+            <NodeData name="Terminal_End" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CX-Pr2010-P-TerminalEnd</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_20_10 -->
+            </NodeData>
+          </NodeData>
+          <NodeData name="Drainage &amp; Ducts" allowChildren="true">
+            <NodeData name="Drain_Manhole" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CD-Pr6501-P-DrainManhole</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_65_52_01 -->
+            </NodeData>
+            <NodeData name="Drain_Gully" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CD-Pr6501-P-DrainGully</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_65_52_01 -->
+            </NodeData>
+            <NodeData name="Drain_Catchpit" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CD-Pr6501-P-DrainCatchpit</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_65_52_01 -->
+            </NodeData>
+            <NodeData name="Drain_Headwall" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CD-Pr6520-P-DrainHeadwall</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_65_52_20 -->
+            </NodeData>
+            <NodeData name="Hydrobrake_Orifice" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CD-Pr6501-P-HydrobrakeOrifice</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_65_52_01 -->
+            </NodeData>
+          </NodeData>
+          <NodeData name="Traffic Signs &amp; Markings (generic)" allowChildren="true">
+            <NodeData name="Traffic_Sign_Post" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CH-Pr2545-P-TrafficSignPost</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_25_93_45 -->
+            </NodeData>
+          </NodeData>
+          <NodeData name="Traffic Signs &amp; Road Markings" allowChildren="true">
+            <NodeData name="TrafficSign_PostMounted" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CH-Pr4077-P-TrafficSignPostMounted</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_40_10_77_72 -->
+            </NodeData>
+            <NodeData name="TrafficSign_GantryMounted" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CH-Pr4077-P-TrafficSignGantryMounted</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_40_10_77_72 -->
+            </NodeData>
+          </NodeData>
+          <NodeData name="Road Lighting &amp; Electrical" allowChildren="true">
+            <NodeData name="Lighting_Column" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CH-Pr2545-P-LightingColumn</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_25_93_45 -->
+            </NodeData>
+            <NodeData name="Feeder_Pillar" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CH-Pr2545-P-FeederPillar</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_25_93_45 -->
+            </NodeData>
+          </NodeData>
+          <NodeData name="Traffic Signals" allowChildren="true">
+            <NodeData name="Signal_Pole" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CH-Pr2545-P-SignalPole</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_25_93_45 -->
+            </NodeData>
+            <NodeData name="Controller_Cabinet" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CH-Pr2545-P-ControllerCabinet</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_25_93_45 -->
+            </NodeData>
+          </NodeData>
+          <NodeData name="Motorway Communications" allowChildren="true">
+            <NodeData name="Comms_MSD" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CH-Pr2545-P-CommsMSD</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_25_93_45 -->
+            </NodeData>
+          </NodeData>
+          <NodeData name="Structural Concrete" allowChildren="true">
+            <NodeData name="Rebar_LapLocation" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CB-Pr2010-P-RebarLapLocation</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_20_10 -->
+            </NodeData>
+          </NodeData>
+          <NodeData name="Steelwork for Structures" allowChildren="true">
+            <NodeData name="Bearing" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CB-Pr2010-P-Bearing</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_20_10 -->
+            </NodeData>
+          </NodeData>
+          <NodeData name="Special Structures" allowChildren="true">
+            <NodeData name="Expansion_Joint" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CB-Pr2010-P-ExpansionJoint</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_20_10 -->
+            </NodeData>
+          </NodeData>
+          <NodeData name="General Furniture" allowChildren="true">
+            <NodeData name="Bollard" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CX-Pr2010-P-Bollard</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_20_10 -->
+            </NodeData>
+            <NodeData name="Bench" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CX-Pr2010-P-Bench</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_20_10 -->
+            </NodeData>
+            <NodeData name="Bin" allowChildren="false">
+              <ECXAttrData>
+                <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                  <Levels>
+                    <Level>
+                      <Value>CX-Pr2010-P-Bin</Value>
+                    </Level>
+                  </Levels>
+                  <Colors>
+                    <Color>
+                      <Value>0,1,0:[0,0,0]:\\</Value>
+                    </Color>
+                  </Colors>
+                  <LineStyles>
+                    <LineStyle>
+                      <Value>2147483647</Value>
+                    </LineStyle>
+                  </LineStyles>
+                  <Weights>
+                    <Weight>
+                      <Value>-1</Value>
+                    </Weight>
+                  </Weights>
+                </Ustn_ElementParams>
+              </ECXAttrData>
+              <!-- Uniclass: Pr_20_10 -->
+            </NodeData>
+          </NodeData>
+        </NodeData>
+      </NodeData>
+    </NodeData>
+    <NodeData name="Linear" allowChildren="true">
+      <NodeData name="MCHW" allowChildren="true">
+        <NodeData name="Preliminaries" allowChildren="true">
+          <NodeData name="Site_Boundary" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CX-Pr2010-M-SiteBoundary</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_20_10 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Fencing &amp; VRS" allowChildren="true">
+          <NodeData name="Fence_PostAndWire" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Pr2545-M-FencePostAndWire</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_25_93_45 -->
+          </NodeData>
+          <NodeData name="VehicleRestraint_Barrier" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Ss2594-M-VehicleRestraintBarrier</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Ss_25_16_94 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Road Restraint Systems" allowChildren="true">
+          <NodeData name="PedestrianGuardrail" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CX-Pr2010-M-PedestrianGuardrail</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_20_10 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Drainage &amp; Ducts" allowChildren="true">
+          <NodeData name="Drain_Pipe" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CD-Pr6507-M-DrainPipe</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_65_52_07 -->
+          </NodeData>
+          <NodeData name="Drain_Culvert" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CD-Pr6501-M-DrainCulvert</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_65_52_01 -->
+          </NodeData>
+          <NodeData name="Service_Duct" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CD-Pr6501-M-ServiceDuct</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_65_52_01 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Pavements - General" allowChildren="true">
+          <NodeData name="Carriageway_Edge" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Ss3005-M-CarriagewayEdge</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Ss_30_14_05 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Traffic Signs &amp; Markings (generic)" allowChildren="true">
+          <NodeData name="Road_Marking_Line" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Pr2545-M-RoadMarkingLine</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_25_93_45 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Kerbs, Footways &amp; Paved Areas" allowChildren="true">
+          <NodeData name="Kerb_TypeA" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Pr2545-M-KerbTypeA</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_25_93_45 -->
+          </NodeData>
+          <NodeData name="Kerb_Channel" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Pr2545-M-KerbChannel</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_25_93_45 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Traffic Signs &amp; Road Markings" allowChildren="true">
+          <NodeData name="RoadMarking_EdgeLine" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Ss4090-M-RoadMarkingEdgeLine</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Ss_40_10_90 -->
+          </NodeData>
+          <NodeData name="RoadMarking_CentreLine" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Ss4090-M-RoadMarkingCentreLine</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Ss_40_10_90 -->
+          </NodeData>
+          <NodeData name="RoadMarking_Hatching" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Ss4090-M-RoadMarkingHatching</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Ss_40_10_90 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Road Lighting &amp; Electrical" allowChildren="true">
+          <NodeData name="Lighting_Cable_Trench" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Pr2545-M-LightingCableTrench</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_25_93_45 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Traffic Signals" allowChildren="true">
+          <NodeData name="Signal_Cable_Run" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Pr2545-M-SignalCableRun</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_25_93_45 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Motorway Communications" allowChildren="true">
+          <NodeData name="Comms_Duct" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Pr2545-M-CommsDuct</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_25_93_45 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Steelwork for Structures" allowChildren="true">
+          <NodeData name="Parapet_Steel" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CB-Pr2010-M-ParapetSteel</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_20_10 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Special Structures" allowChildren="true">
+          <NodeData name="Cable_Stay" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CB-Pr2010-M-CableStay</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_20_10 -->
+          </NodeData>
+        </NodeData>
+      </NodeData>
+    </NodeData>
+    <NodeData name="Surfaces" allowChildren="true">
+      <NodeData name="MCHW" allowChildren="true">
+        <NodeData name="Site Clearance" allowChildren="true">
+          <NodeData name="Vegetation_Clearance_Area" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CX-Pr2010-M-VegetationClearanceArea</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_20_10 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Earthworks" allowChildren="true">
+          <NodeData name="Earthworks_Cut" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CE-EF1510-M-EarthworksCut</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: EF_15_10 -->
+          </NodeData>
+          <NodeData name="Earthworks_Fill" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CE-EF1510-M-EarthworksFill</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: EF_15_10 -->
+          </NodeData>
+          <NodeData name="Topsoil_Stripping" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CE-EF1510-M-TopsoilStripping</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: EF_15_10 -->
+          </NodeData>
+          <NodeData name="Capping_Layer" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CE-EF1510-M-CappingLayer</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: EF_15_10 -->
+          </NodeData>
+          <NodeData name="Subgrade" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CE-EF1510-M-Subgrade</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: EF_15_10 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Pavements - General" allowChildren="true">
+          <NodeData name="Carriageway_Area" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Ss3005-M-CarriagewayArea</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Ss_30_14_05 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Pavements - Bituminous" allowChildren="true">
+          <NodeData name="Bituminous_SurfaceCourse" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Ss3005-M-BituminousSurfaceCourse</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Ss_30_14_05 -->
+          </NodeData>
+          <NodeData name="Bituminous_BinderCourse" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Ss3005-M-BituminousBinderCourse</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Ss_30_14_05 -->
+          </NodeData>
+          <NodeData name="Bituminous_Base" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Ss3005-M-BituminousBase</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Ss_30_14_05 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Pavements - Concrete &amp; CBM" allowChildren="true">
+          <NodeData name="Concrete_Pavement" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Ss3005-M-ConcretePavement</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Ss_30_14_05 -->
+          </NodeData>
+          <NodeData name="CBM_Subbase" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Ss3005-M-CBMSubbase</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Ss_30_14_05 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Kerbs, Footways &amp; Paved Areas" allowChildren="true">
+          <NodeData name="Footway_AC" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Pr2545-M-FootwayAC</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_25_93_45 -->
+          </NodeData>
+          <NodeData name="Footway_BlockPaving" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Pr2545-M-FootwayBlockPaving</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_25_93_45 -->
+          </NodeData>
+          <NodeData name="Cycletrack" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CH-Pr2545-M-Cycletrack</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_25_93_45 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Protection of Steelwork" allowChildren="true">
+          <NodeData name="Protective_Coating_Area" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CB-Pr2010-M-ProtectiveCoatingArea</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_20_10 -->
+          </NodeData>
+        </NodeData>
+        <NodeData name="Waterproofing for Structures" allowChildren="true">
+          <NodeData name="Bridge_Waterproofing" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CB-Pr2010-M-BridgeWaterproofing</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_20_10 -->
+          </NodeData>
+        </NodeData>
+      </NodeData>
+    </NodeData>
+    <NodeData name="Volumes" allowChildren="true">
+      <NodeData name="MCHW" allowChildren="true">
+        <NodeData name="Structural Concrete" allowChildren="true">
+          <NodeData name="Concrete_Pour" allowChildren="false">
+            <ECXAttrData>
+              <Ustn_ElementParams xmlns="Ustn_ElementParams.01.00" instanceID=":56FF00000001:0000000000">
+                <Levels>
+                  <Level>
+                    <Value>CB-Pr2010-M-ConcretePour</Value>
+                  </Level>
+                </Levels>
+                <Colors>
+                  <Color>
+                    <Value>0,1,0:[0,0,0]:\\</Value>
+                  </Color>
+                </Colors>
+                <LineStyles>
+                  <LineStyle>
+                    <Value>2147483647</Value>
+                  </LineStyle>
+                </LineStyles>
+                <Weights>
+                  <Weight>
+                    <Value>-1</Value>
+                  </Weight>
+                </Weights>
+              </Ustn_ElementParams>
+            </ECXAttrData>
+            <!-- Uniclass: Pr_20_10 -->
+          </NodeData>
+        </NodeData>
+      </NodeData>
+    </NodeData>
+  </ElementTemplates>
+</DgnData>

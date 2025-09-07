@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentManagement xmlns="Bentley-ContentManagement" file="C:\ProgramData\Bentley\OpenRoads Designer 2023.00\Configuration\Organization-Civil\UK Standards\Dgnlib\Feature Definitions\Road\MCHW_Features_GG184.dgnlib" version="OpenRoads Designer 2023">
+  <FeatureDefinitions>
+    <FeatureDefinition description="Carriageway edge marking/geometry" featurePath="Road" name="Carriageway_Edge" nameSeed="Car">
+      <ApplicationFeatureDefinitions>
+        <LinearFeatureDefinition ApplicationObjectSettingsProviderName="Linear" AlignmentObjectSettingsCreateTemplateGeometry="false">
+          <TaggedFeatureSymbologyRef featurePath="Linear\Road\Carriageway_Edge&gt;~Lin" relationship="ApplicationObjectSettings__GeometryAspect_V2" schema="Bentley_Civil__Model_ContentManagement" tag="&lt;ECInstance&gt;&lt;GeometryAspectReference instanceID=&quot;Prop&quot; xmlns=&quot;RelInfo.00.00&quot;&gt;
+    &lt;Tag&gt;TagLinear&lt;/Tag&gt;
+&lt;/GeometryAspectReference&gt;&lt;/ECInstance&gt;"/>
+          <TaggedFeatureSymbologyRef featurePath="Profile\Road\Carriageway_Edge&gt;~Prf" relationship="ApplicationObjectSettings__GeometryAspect_V2" schema="Bentley_Civil__Model_ContentManagement" tag="&lt;ECInstance&gt;&lt;GeometryAspectReference instanceID=&quot;Prop&quot; xmlns=&quot;RelInfo.00.00&quot;&gt;
+    &lt;Tag&gt;TagProfile&lt;/Tag&gt;
+&lt;/GeometryAspectReference&gt;&lt;/ECInstance&gt;"/>
+        </LinearFeatureDefinition>
+      </ApplicationFeatureDefinitions>
+      <Items/>
+    </FeatureDefinition>
+    <FeatureDefinition description="Kerb Type A" featurePath="Kerbs" name="Kerb_TypeA" nameSeed="Ker">
+      <ApplicationFeatureDefinitions>
+        <LinearFeatureDefinition ApplicationObjectSettingsProviderName="Linear" AlignmentObjectSettingsCreateTemplateGeometry="false">
+          <TaggedFeatureSymbologyRef featurePath="Linear\Kerbs\Kerb_TypeA&gt;~Lin" relationship="ApplicationObjectSettings__GeometryAspect_V2" schema="Bentley_Civil__Model_ContentManagement" tag="&lt;ECInstance&gt;&lt;GeometryAspectReference instanceID=&quot;Prop&quot; xmlns=&quot;RelInfo.00.00&quot;&gt;
+    &lt;Tag&gt;TagLinear&lt;/Tag&gt;
+&lt;/GeometryAspectReference&gt;&lt;/ECInstance&gt;"/>
+          <TaggedFeatureSymbologyRef featurePath="Profile\Kerbs\Kerb_TypeA&gt;~Prf" relationship="ApplicationObjectSettings__GeometryAspect_V2" schema="Bentley_Civil__Model_ContentManagement" tag="&lt;ECInstance&gt;&lt;GeometryAspectReference instanceID=&quot;Prop&quot; xmlns=&quot;RelInfo.00.00&quot;&gt;
+    &lt;Tag&gt;TagProfile&lt;/Tag&gt;
+&lt;/GeometryAspectReference&gt;&lt;/ECInstance&gt;"/>
+        </LinearFeatureDefinition>
+      </ApplicationFeatureDefinitions>
+      <Items/>
+    </FeatureDefinition>
+    <FeatureDefinition description="Kerb Channel" featurePath="Kerbs" name="Kerb_Channel" nameSeed="Ker">
+      <ApplicationFeatureDefinitions>
+        <LinearFeatureDefinition ApplicationObjectSettingsProviderName="Linear" AlignmentObjectSettingsCreateTemplateGeometry="false">
+          <TaggedFeatureSymbologyRef featurePath="Linear\Kerbs\Kerb_Channel&gt;~Lin" relationship="ApplicationObjectSettings__GeometryAspect_V2" schema="Bentley_Civil__Model_ContentManagement" tag="&lt;ECInstance&gt;&lt;GeometryAspectReference instanceID=&quot;Prop&quot; xmlns=&quot;RelInfo.00.00&quot;&gt;
+    &lt;Tag&gt;TagLinear&lt;/Tag&gt;
+&lt;/GeometryAspectReference&gt;&lt;/ECInstance&gt;"/>
+          <TaggedFeatureSymbologyRef featurePath="Profile\Kerbs\Kerb_Channel&gt;~Prf" relationship="ApplicationObjectSettings__GeometryAspect_V2" schema="Bentley_Civil__Model_ContentManagement" tag="&lt;ECInstance&gt;&lt;GeometryAspectReference instanceID=&quot;Prop&quot; xmlns=&quot;RelInfo.00.00&quot;&gt;
+    &lt;Tag&gt;TagProfile&lt;/Tag&gt;
+&lt;/GeometryAspectReference&gt;&lt;/ECInstance&gt;"/>
+        </LinearFeatureDefinition>
+      </ApplicationFeatureDefinitions>
+      <Items/>
+    </FeatureDefinition>
+    <FeatureDefinition description="Footway asphalt concrete" featurePath="Footway" name="Footway_AC" nameSeed="Foo">
+      <ApplicationFeatureDefinitions>
+        <LinearFeatureDefinition ApplicationObjectSettingsProviderName="Linear" AlignmentObjectSettingsCreateTemplateGeometry="false">
+          <TaggedFeatureSymbologyRef featurePath="Linear\Footway\Footway_AC&gt;~Lin" relationship="ApplicationObjectSettings__GeometryAspect_V2" schema="Bentley_Civil__Model_ContentManagement" tag="&lt;ECInstance&gt;&lt;GeometryAspectReference instanceID=&quot;Prop&quot; xmlns=&quot;RelInfo.00.00&quot;&gt;
+    &lt;Tag&gt;TagLinear&lt;/Tag&gt;
+&lt;/GeometryAspectReference&gt;&lt;/ECInstance&gt;"/>
+          <TaggedFeatureSymbologyRef featurePath="Profile\Footway\Footway_AC&gt;~Prf" relationship="ApplicationObjectSettings__GeometryAspect_V2" schema="Bentley_Civil__Model_ContentManagement" tag="&lt;ECInstance&gt;&lt;GeometryAspectReference instanceID=&quot;Prop&quot; xmlns=&quot;RelInfo.00.00&quot;&gt;
+    &lt;Tag&gt;TagProfile&lt;/Tag&gt;
+&lt;/GeometryAspectReference&gt;&lt;/ECInstance&gt;"/>
+        </LinearFeatureDefinition>
+      </ApplicationFeatureDefinitions>
+      <Items/>
+    </FeatureDefinition>
+    <FeatureDefinition description="Cycle track top" featurePath="Cycle" name="Cycletrack" nameSeed="Cyc">
+      <ApplicationFeatureDefinitions>
+        <LinearFeatureDefinition ApplicationObjectSettingsProviderName="Linear" AlignmentObjectSettingsCreateTemplateGeometry="false">
+          <TaggedFeatureSymbologyRef featurePath="Linear\Cycle\Cycletrack&gt;~Lin" relationship="ApplicationObjectSettings__GeometryAspect_V2" schema="Bentley_Civil__Model_ContentManagement" tag="&lt;ECInstance&gt;&lt;GeometryAspectReference instanceID=&quot;Prop&quot; xmlns=&quot;RelInfo.00.00&quot;&gt;
+    &lt;Tag&gt;TagLinear&lt;/Tag&gt;
+&lt;/GeometryAspectReference&gt;&lt;/ECInstance&gt;"/>
+          <TaggedFeatureSymbologyRef featurePath="Profile\Cycle\Cycletrack&gt;~Prf" relationship="ApplicationObjectSettings__GeometryAspect_V2" schema="Bentley_Civil__Model_ContentManagement" tag="&lt;ECInstance&gt;&lt;GeometryAspectReference instanceID=&quot;Prop&quot; xmlns=&quot;RelInfo.00.00&quot;&gt;
+    &lt;Tag&gt;TagProfile&lt;/Tag&gt;
+&lt;/GeometryAspectReference&gt;&lt;/ECInstance&gt;"/>
+        </LinearFeatureDefinition>
+      </ApplicationFeatureDefinitions>
+      <Items/>
+    </FeatureDefinition>
+    <FeatureDefinition description="Top surface of carriageway including footways" featurePath="Modeling" name="Carriageway_Area" nameSeed="Ca">
+      <ApplicationFeatureDefinitions>
+        <MeshFeatureDefinition ApplicationObjectSettingsProviderName="Mesh" MeshObjectSettingsSplitMaterial="false" MeshObjectSettingsIncludeCutInMassOrdinate="false" MeshObjectSettingsIncludeFillInMassOrdinate="false" MeshObjectSettingsFillFactor="1.00000000" MeshObjectSettingsCutFactor="1.00000000" MeshObjectSettingsVolumeOption="0">
+          <TaggedFeatureSymbologyRef featurePath="Surface\Modeling\Carriageway\Carriageway_Area&gt;~Srf" relationship="ApplicationObjectSettings__GeometryAspect_V2" schema="Bentley_Civil__Model_ContentManagement" tag="&lt;ECInstance&gt;&lt;GeometryAspectReference instanceID=&quot;Prop&quot; xmlns=&quot;RelInfo.00.00&quot;&gt;
+    &lt;Tag&gt;TagSurface&lt;/Tag&gt;
+&lt;/GeometryAspectReference&gt;&lt;/ECInstance&gt;"/>
+        </MeshFeatureDefinition>
+      </ApplicationFeatureDefinitions>
+      <Items/>
+    </FeatureDefinition>
+    <FeatureDefinition description="Surface course (asphalt)" featurePath="Modeling" name="Bituminous_SurfaceCourse" nameSeed="Bi">
+      <ApplicationFeatureDefinitions>
+        <MeshFeatureDefinition ApplicationObjectSettingsProviderName="Mesh" MeshObjectSettingsSplitMaterial="false" MeshObjectSettingsIncludeCutInMassOrdinate="false" MeshObjectSettingsIncludeFillInMassOrdinate="false" MeshObjectSettingsFillFactor="1.00000000" MeshObjectSettingsCutFactor="1.00000000" MeshObjectSettingsVolumeOption="0">
+          <TaggedFeatureSymbologyRef featurePath="Surface\Pavement\Bituminous_SurfaceCourse&gt;~Srf" relationship="ApplicationObjectSettings__GeometryAspect_V2" schema="Bentley_Civil__Model_ContentManagement" tag="&lt;ECInstance&gt;&lt;GeometryAspectReference instanceID=&quot;Prop&quot; xmlns=&quot;RelInfo.00.00&quot;&gt;
+    &lt;Tag&gt;TagSurface&lt;/Tag&gt;
+&lt;/GeometryAspectReference&gt;&lt;/ECInstance&gt;"/>
+        </MeshFeatureDefinition>
+      </ApplicationFeatureDefinitions>
+      <Items/>
+    </FeatureDefinition>
+    <FeatureDefinition description="Binder course (asphalt)" featurePath="Modeling" name="Bituminous_BinderCourse" nameSeed="Bi">
+      <ApplicationFeatureDefinitions>
+        <MeshFeatureDefinition ApplicationObjectSettingsProviderName="Mesh" MeshObjectSettingsSplitMaterial="false" MeshObjectSettingsIncludeCutInMassOrdinate="false" MeshObjectSettingsIncludeFillInMassOrdinate="false" MeshObjectSettingsFillFactor="1.00000000" MeshObjectSettingsCutFactor="1.00000000" MeshObjectSettingsVolumeOption="0">
+          <TaggedFeatureSymbologyRef featurePath="Surface\Pavement\Bituminous_BinderCourse&gt;~Srf" relationship="ApplicationObjectSettings__GeometryAspect_V2" schema="Bentley_Civil__Model_ContentManagement" tag="&lt;ECInstance&gt;&lt;GeometryAspectReference instanceID=&quot;Prop&quot; xmlns=&quot;RelInfo.00.00&quot;&gt;
+    &lt;Tag&gt;TagSurface&lt;/Tag&gt;
+&lt;/GeometryAspectReference&gt;&lt;/ECInstance&gt;"/>
+        </MeshFeatureDefinition>
+      </ApplicationFeatureDefinitions>
+      <Items/>
+    </FeatureDefinition>
+    <FeatureDefinition description="Base (asphalt)" featurePath="Modeling" name="Bituminous_Base" nameSeed="Bi">
+      <ApplicationFeatureDefinitions>
+        <MeshFeatureDefinition ApplicationObjectSettingsProviderName="Mesh" MeshObjectSettingsSplitMaterial="false" MeshObjectSettingsIncludeCutInMassOrdinate="false" MeshObjectSettingsIncludeFillInMassOrdinate="false" MeshObjectSettingsFillFactor="1.00000000" MeshObjectSettingsCutFactor="1.00000000" MeshObjectSettingsVolumeOption="0">
+          <TaggedFeatureSymbologyRef featurePath="Surface\Pavement\Bituminous_Base&gt;~Srf" relationship="ApplicationObjectSettings__GeometryAspect_V2" schema="Bentley_Civil__Model_ContentManagement" tag="&lt;ECInstance&gt;&lt;GeometryAspectReference instanceID=&quot;Prop&quot; xmlns=&quot;RelInfo.00.00&quot;&gt;
+    &lt;Tag&gt;TagSurface&lt;/Tag&gt;
+&lt;/GeometryAspectReference&gt;&lt;/ECInstance&gt;"/>
+        </MeshFeatureDefinition>
+      </ApplicationFeatureDefinitions>
+      <Items/>
+    </FeatureDefinition>
+    <FeatureDefinition description="Finished subgrade / formation" featurePath="Modeling" name="Subgrade" nameSeed="Su">
+      <ApplicationFeatureDefinitions>
+        <MeshFeatureDefinition ApplicationObjectSettingsProviderName="Mesh" MeshObjectSettingsSplitMaterial="false" MeshObjectSettingsIncludeCutInMassOrdinate="false" MeshObjectSettingsIncludeFillInMassOrdinate="false" MeshObjectSettingsFillFactor="1.00000000" MeshObjectSettingsCutFactor="1.00000000" MeshObjectSettingsVolumeOption="0">
+          <TaggedFeatureSymbologyRef featurePath="Surface\Earthworks\Subgrade&gt;~Srf" relationship="ApplicationObjectSettings__GeometryAspect_V2" schema="Bentley_Civil__Model_ContentManagement" tag="&lt;ECInstance&gt;&lt;GeometryAspectReference instanceID=&quot;Prop&quot; xmlns=&quot;RelInfo.00.00&quot;&gt;
+    &lt;Tag&gt;TagSurface&lt;/Tag&gt;
+&lt;/GeometryAspectReference&gt;&lt;/ECInstance&gt;"/>
+        </MeshFeatureDefinition>
+      </ApplicationFeatureDefinitions>
+      <Items/>
+    </FeatureDefinition>
+  </FeatureDefinitions>
+</ContentManagement>
